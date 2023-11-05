@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- flaticon -->
+   <link rel='stylesheet'
+   href='https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-rounded/css/
+   uicons-regular-rounded.css'>
+
+   <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-straight/css/uicons-regular-straight.css'>
+
+   <!-- swiper -->
+   <link rel="stylesheet" 
+   href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+   <!-- css -->
+   <link rel="stylesheet" href="assets/css/style.css">
+
+   <title>GM</title>
+</head>
+<body>   
+   <!-- header -->
+   <header class="header">
+    <div class="header__top">
+        <div class="header__container container">
+            <div class="header__contact">
+                <span>8096332059</span>
+                <span>our location</span>
+            </div>
+
+            <p class="header__alert-news">
+                super value deals save more with coupons
+            </p>
+            <a href="login-register.html" class="header__top_action">
+                login/sign up
+            </a>
+        </div>
+    </div>
+
+    <nav class="nav container">
+        <a href="index.html" class="nav__logo">
+            <img src="assets/img/logo.png" alt="" class="nav__logo-img">
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="index.html" class="nav__link">Home</a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="shop.html" class="nav__link active-link">Shop</a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="accounts.html" class="nav__link">My Accounts</a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="compare.html" class="nav__link">Compare</a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="login-register.html" class="nav__link">Login</a>
+                </li>
+            </ul>
+
+            <div class="header__search">
+                <input type="text" placeholder="search for item.." class="form__input" />
+
+                <button class="search__btn">
+                    <img src="assets/img/search.png" alt="">
+                </button>
+            </div>
+        </div>
+
+
+        <div class="header__user-actions">
+            <a href="whishlist.html" class="header__action-btn">
+                <img src="assets/img/icon-heart.svg" alt="">
+                <span class="count">3</span>
+
+                <a href="cart.html" class="header__action-btn">
+                    <img src="assets/img/icon-cart.svg" alt="">
+                    <span class="count">3</span>
+                </a>
+        </div>
+    </nav>
+</header>
+
+
+    <!-- main -->
+    <main class="main">
+
+        <!-- breadcrumb -->
+        <section class="breadcrumb">
+            <ul class="breadcrumb__list flex container">
+                <li><a href="index.html" class="breadcrumb__link">Home</a></li>
+                <li><span class="breadcrumb__link">></span></li>
+                <li><span class="breadcrumb__link">Shop</span></li>
+            </ul>
+        </section>
+
+        <!-- products -->
+        <section class="products section--lg container">
+            <p class="total__products">we found <span>688</span> items for you!</p>
+
+            <div class="products__container grid">
+
+                <div class="product__item">
+                    <div class="product__banner">
+                        <a href="details.html" class="product__images">
+                            <img src="assets/img/product1-1.jpg" alt="" class="product__img default">
+
+                            <img src="assets/img/product1-2.jpg" alt="" class="product__img hover">
+                        </a>
+
+                        <div class="product__actions">
+                            <a href="#" class="action__btn" aria-label="Quick View">
+                                <i class="fi fi-rs-eye"></i>
+                            </a>
+
+                            <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                                <i class="fi fi-rs-heart"></i>
+                            </a>
+
+                            <a href="#" class="action__btn" aria-label="Compare">
+                                <i class="fi fi-rs-shuffle"></i>
+                            </a>
+                        </div>
+
+                        <div class="product__badge light-pink">Hot</div>
+                    </div>
+
+                    <div class="product__content">
+                        <span class="product__category">Mobiles</span>
+                        <a href="details.html">
+                            <h3 class="product__title">IQOO Z7 PRO</h3>
+                        </a>
+                        <div class="product__rating">
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                        </div>
+
+                        <div class="product__price flex">
+                            <span class="new__price">$250.26</span>
+                            <span class="old__price">$300.26</span>
+                        </div>
+
+                        <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                            <i class="fi fi-rs-shopping-bag-add"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="product__item">
+                    <div class="product__banner">
+                        <a href="details.html" class="product__images">
+                            <img src="assets/img/product2-1.jpg" alt="" class="product__img default">
+
+                            <img src="assets/img/product2-2.jpg" alt="" class="product__img hover">
+                        </a>
+
+                        <div class="product__actions">
+                            <a href="#" class="action__btn" aria-label="Quick View">
+                                <i class="fi fi-rs-eye"></i>
+                            </a>
+
+                            <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                                <i class="fi fi-rs-heart"></i>
+                            </a>
+
+                            <a href="#" class="action__btn" aria-label="Compare">
+                                <i class="fi fi-rs-shuffle"></i>
+                            </a>
+                        </div>
+
+                        <div class="product__badge light-green">Hot</div>
+                    </div>
+
+                    <div class="product__content">
+                        <span class="product__category">Mobiles</span>
+                        <a href="details.html">
+                            <h3 class="product__title">IQOO NEO 7</h3>
+                        </a>
+                        <div class="product__rating">
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                        </div>
+
+                        <div class="product__price flex">
+                            <span class="new__price">$255.26</span>
+                            <span class="old__price">$320.26</span>
+                        </div>
+
+                        <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                            <i class="fi fi-rs-shopping-bag-add"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="product__item">
+                    <div class="product__banner">
+                        <a href="details.html" class="product__images">
+                            <img src="assets/img/product3-1.jpg" alt="" class="product__img default">
+
+                            <img src="assets/img/product3-2.jpg" alt="" class="product__img hover">
+                        </a>
+
+                        <div class="product__actions">
+                            <a href="#" class="action__btn" aria-label="Quick View">
+                                <i class="fi fi-rs-eye"></i>
+                            </a>
+
+                            <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                                <i class="fi fi-rs-heart"></i>
+                            </a>
+
+                            <a href="#" class="action__btn" aria-label="Compare">
+                                <i class="fi fi-rs-shuffle"></i>
+                            </a>
+                        </div>
+
+                        <div class="product__badge light-orange">Hot</div>
+                    </div>
+
+                    <div class="product__content">
+                        <span class="product__category">Earpods</span>
+                        <a href="details.html">
+                            <h3 class="product__title">BOAT EARPODS</h3>
+                        </a>
+                        <div class="product__rating">
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                        </div>
+
+                        <div class="product__price flex">
+                            <span class="new__price">$25.26</span>
+                            <span class="old__price">$30.26</span>
+                        </div>
+
+                        <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                            <i class="fi fi-rs-shopping-bag-add"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="product__item">
+                    <div class="product__banner">
+                        <a href="details.html" class="product__images">
+                            <img src="assets/img/product4-1.jpg" alt="" class="product__img default">
+
+                            <img src="assets/img/product4-2.jpg" alt="" class="product__img hover">
+                        </a>
+
+                        <div class="product__actions">
+                            <a href="#" class="action__btn" aria-label="Quick View">
+                                <i class="fi fi-rs-eye"></i>
+                            </a>
+
+                            <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                                <i class="fi fi-rs-heart"></i>
+                            </a>
+
+                            <a href="#" class="action__btn" aria-label="Compare">
+                                <i class="fi fi-rs-shuffle"></i>
+                            </a>
+                        </div>
+
+                        <div class="product__badge light-blue">Hot</div>
+                    </div>
+
+                    <div class="product__content">
+                        <span class="product__category">Smart watches</span>
+                        <a href="details.html">
+                            <h3 class="product__title">FIRE BOULT</h3>
+                        </a>
+                        <div class="product__rating">
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                        </div>
+
+                        <div class="product__price flex">
+                            <span class="new__price">$30.26</span>
+                            <span class="old__price">$35.26</span>
+                        </div>
+
+                        <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                            <i class="fi fi-rs-shopping-bag-add"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="product__item">
+                    <div class="product__banner">
+                        <a href="details.html" class="product__images">
+                            <img src="assets/img/product5-1.jpg" alt="" class="product__img default">
+
+                            <img src="assets/img/product5-2.jpg" alt="" class="product__img hover">
+                        </a>
+
+                        <div class="product__actions">
+                            <a href="#" class="action__btn" aria-label="Quick View">
+                                <i class="fi fi-rs-eye"></i>
+                            </a>
+
+                            <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                                <i class="fi fi-rs-heart"></i>
+                            </a>
+
+                            <a href="#" class="action__btn" aria-label="Compare">
+                                <i class="fi fi-rs-shuffle"></i>
+                            </a>
+                        </div>
+
+                        <div class="product__badge light-pink">-30%</div>
+                    </div>
+
+                    <div class="product__content">
+                        <span class="product__category">Perfumes</span>
+                        <a href="details.html">
+                            <h3 class="product__title">FOGG</h3>
+                        </a>
+                        <div class="product__rating">
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                        </div>
+
+                        <div class="product__price flex">
+                            <span class="new__price">$90.26</span>
+                            <span class="old__price">$100.26</span>
+                        </div>
+
+                        <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                            <i class="fi fi-rs-shopping-bag-add"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="product__item">
+                    <div class="product__banner">
+                        <a href="details.html" class="product__images">
+                            <img src="assets/img/product6-1.jpg" alt="" class="product__img default">
+
+                            <img src="assets/img/product6-2.jpg" alt="" class="product__img hover">
+                        </a>
+
+                        <div class="product__actions">
+                            <a href="#" class="action__btn" aria-label="Quick View">
+                                <i class="fi fi-rs-eye"></i>
+                            </a>
+
+                            <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                                <i class="fi fi-rs-heart"></i>
+                            </a>
+
+                            <a href="#" class="action__btn" aria-label="Compare">
+                                <i class="fi fi-rs-shuffle"></i>
+                            </a>
+                        </div>
+
+                        <div class="product__badge light-pink">-22%</div>
+                    </div>
+
+                    <div class="product__content">
+                        <span class="product__category">Mobiles</span>
+                        <a href="details.html">
+                            <h3 class="product__title">IPHONE 14.. </h3>
+                        </a>
+                        <div class="product__rating">
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                        </div>
+
+                        <div class="product__price flex">
+                            <span class="new__price">$479.26</span>
+                            <span class="old__price">$500.26</span>
+                        </div>
+
+                        <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                            <i class="fi fi-rs-shopping-bag-add"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="product__item">
+                    <div class="product__banner">
+                        <a href="details.html" class="product__images">
+                            <img src="assets/img/product7-1.jpg" alt="" class="product__img default">
+
+                            <img src="assets/img/product7-2.jpg" alt="" class="product__img hover">
+                        </a>
+
+                        <div class="product__actions">
+                            <a href="#" class="action__btn" aria-label="Quick View">
+                                <i class="fi fi-rs-eye"></i>
+                            </a>
+
+                            <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                                <i class="fi fi-rs-heart"></i>
+                            </a>
+
+                            <a href="#" class="action__btn" aria-label="Compare">
+                                <i class="fi fi-rs-shuffle"></i>
+                            </a>
+                        </div>
+
+                        <div class="product__badge light-green">Hot</div>
+                    </div>
+
+                    <div class="product__content">
+                        <span class="product__category">Speakers</span>
+                        <a href="details.html">
+                            <h3 class="product__title">JBL BT</h3>
+                        </a>
+                        <div class="product__rating">
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                        </div>
+
+                        <div class="product__price flex">
+                            <span class="new__price">$25.26</span>
+                            <span class="old__price">$30.26</span>
+                        </div>
+
+                        <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                            <i class="fi fi-rs-shopping-bag-add"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="product__item">
+                    <div class="product__banner">
+                        <a href="details.html" class="product__images">
+                            <img src="assets/img/product8-1.jpg" alt="" class="product__img default">
+
+                            <img src="assets/img/product8-2.jpg" alt="" class="product__img hover">
+                        </a>
+
+                        <div class="product__actions">
+                            <a href="#" class="action__btn" aria-label="Quick View">
+                                <i class="fi fi-rs-eye"></i>
+                            </a>
+
+                            <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                                <i class="fi fi-rs-heart"></i>
+                            </a>
+
+                            <a href="#" class="action__btn" aria-label="Compare">
+                                <i class="fi fi-rs-shuffle"></i>
+                            </a>
+                        </div>
+
+                        <div class="product__badge light-blue">Hot</div>
+                    </div>
+
+                    <div class="product__content">
+                        <span class="product__category">Pendrives</span>
+                        <a href="details.html">
+                            <h3 class="product__title">HP-32GB</h3>
+                        </a>
+                        <div class="product__rating">
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                        </div>
+
+                        <div class="product__price flex">
+                            <span class="new__price">$10.26</span>
+                            <span class="old__price">$15.26</span>
+                        </div>
+
+                        <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                            <i class="fi fi-rs-shopping-bag-add"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="product__item">
+                    <div class="product__banner">
+                        <a href="details.html" class="product__images">
+                            <img src="assets/img/product5-1.jpg" alt="" class="product__img default">
+
+                            <img src="assets/img/product5-2.jpg" alt="" class="product__img hover">
+                        </a>
+
+                        <div class="product__actions">
+                            <a href="#" class="action__btn" aria-label="Quick View">
+                                <i class="fi fi-rs-eye"></i>
+                            </a>
+
+                            <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                                <i class="fi fi-rs-heart"></i>
+                            </a>
+
+                            <a href="#" class="action__btn" aria-label="Compare">
+                                <i class="fi fi-rs-shuffle"></i>
+                            </a>
+                        </div>
+
+                        <div class="product__badge light-pink">-30%</div>
+                    </div>
+
+                    <div class="product__content">
+                        <span class="product__category">Perfumes</span>
+                        <a href="details.html">
+                            <h3 class="product__title">FOGG</h3>
+                        </a>
+                        <div class="product__rating">
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                        </div>
+
+                        <div class="product__price flex">
+                            <span class="new__price">$90.26</span>
+                            <span class="old__price">$100.26</span>
+                        </div>
+
+                        <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                            <i class="fi fi-rs-shopping-bag-add"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="product__item">
+                    <div class="product__banner">
+                        <a href="details.html" class="product__images">
+                            <img src="assets/img/product6-1.jpg" alt="" class="product__img default">
+
+                            <img src="assets/img/product6-2.jpg" alt="" class="product__img hover">
+                        </a>
+
+                        <div class="product__actions">
+                            <a href="#" class="action__btn" aria-label="Quick View">
+                                <i class="fi fi-rs-eye"></i>
+                            </a>
+
+                            <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                                <i class="fi fi-rs-heart"></i>
+                            </a>
+
+                            <a href="#" class="action__btn" aria-label="Compare">
+                                <i class="fi fi-rs-shuffle"></i>
+                            </a>
+                        </div>
+
+                        <div class="product__badge light-pink">-22%</div>
+                    </div>
+
+                    <div class="product__content">
+                        <span class="product__category">Mobiles</span>
+                        <a href="details.html">
+                            <h3 class="product__title">IPHONE 14.. </h3>
+                        </a>
+                        <div class="product__rating">
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                        </div>
+
+                        <div class="product__price flex">
+                            <span class="new__price">$479.26</span>
+                            <span class="old__price">$500.26</span>
+                        </div>
+
+                        <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                            <i class="fi fi-rs-shopping-bag-add"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="product__item">
+                    <div class="product__banner">
+                        <a href="details.html" class="product__images">
+                            <img src="assets/img/product7-1.jpg" alt="" class="product__img default">
+
+                            <img src="assets/img/product7-2.jpg" alt="" class="product__img hover">
+                        </a>
+
+                        <div class="product__actions">
+                            <a href="#" class="action__btn" aria-label="Quick View">
+                                <i class="fi fi-rs-eye"></i>
+                            </a>
+
+                            <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                                <i class="fi fi-rs-heart"></i>
+                            </a>
+
+                            <a href="#" class="action__btn" aria-label="Compare">
+                                <i class="fi fi-rs-shuffle"></i>
+                            </a>
+                        </div>
+
+                        <div class="product__badge light-green">Hot</div>
+                    </div>
+
+                    <div class="product__content">
+                        <span class="product__category">Speakers</span>
+                        <a href="details.html">
+                            <h3 class="product__title">JBL BT</h3>
+                        </a>
+                        <div class="product__rating">
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                        </div>
+
+                        <div class="product__price flex">
+                            <span class="new__price">$25.26</span>
+                            <span class="old__price">$30.26</span>
+                        </div>
+
+                        <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                            <i class="fi fi-rs-shopping-bag-add"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="product__item">
+                    <div class="product__banner">
+                        <a href="details.html" class="product__images">
+                            <img src="assets/img/product8-1.jpg" alt="" class="product__img default">
+
+                            <img src="assets/img/product8-2.jpg" alt="" class="product__img hover">
+                        </a>
+
+                        <div class="product__actions">
+                            <a href="#" class="action__btn" aria-label="Quick View">
+                                <i class="fi fi-rs-eye"></i>
+                            </a>
+
+                            <a href="#" class="action__btn" aria-label="Add To Wishlist">
+                                <i class="fi fi-rs-heart"></i>
+                            </a>
+
+                            <a href="#" class="action__btn" aria-label="Compare">
+                                <i class="fi fi-rs-shuffle"></i>
+                            </a>
+                        </div>
+
+                        <div class="product__badge light-blue">Hot</div>
+                    </div>
+
+                    <div class="product__content">
+                        <span class="product__category">Pendrives</span>
+                        <a href="details.html">
+                            <h3 class="product__title">HP-32GB</h3>
+                        </a>
+                        <div class="product__rating">
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                            <i class="fi fi-rs-star"></i>
+                        </div>
+
+                        <div class="product__price flex">
+                            <span class="new__price">$10.26</span>
+                            <span class="old__price">$15.26</span>
+                        </div>
+
+                        <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                            <i class="fi fi-rs-shopping-bag-add"></i>
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+
+        <ul class="pagination">
+            <li><a href="" class="pagination__link active">01</a></li>
+            <li><a href="" class="pagination__link">02</a></li>
+            <li><a href="" class="pagination__link">03</a></li>
+            <li><a href="" class="pagination__link">...</a></li>
+            <li><a href="" class="pagination__link">16</a></li>
+            <li><a href="" class="pagination__link icon">
+                <i class="fi-rs-angle-double-small-right"></i>
+            </a></li>
+        </ul>
+        </section>
+
+        <!-- Newsletter -->
+        <section class="newsletter section home__newsletter">
+            <div class="newsletter__container container grid">
+                <h3 class="newsletter__title flex">
+                    <img src="assets/img/icon-email.svg" alt="" class="newsletter__icon">
+                    Sign up to newsletter
+                </h3>
+
+                <p class="newsletter__description">
+                    ....and receive $25 coupon for first shopping
+                </p>
+
+                <form action="" class="newsletter__form">
+                    <input type="text" class="newsletter__input" placeholder="Enter your email">
+                    <button type="submit" class="newsletter__btn">Subscribe</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+        <!-- footer -->
+        <footer class="footer container">
+            <div class="footer__container grid">
+                <div class="footer__content">
+                    <a href="index.html" class="footer__logo">
+                        <img src="assets/img/logo.png" alt="" class="footer__logo-img">
+                    </a>
+
+                    <h4 class="footer__subtitile">contact</h4>
+
+                    <p class="footer__description">
+                        <span>Address:</span>Mainroad Goppili, Srikakulam, Andhrapradesh, India
+                    </p>
+                    <p class="footer__description">
+                        <span>Phone:</span>9849898355 / 8096332059
+                    </p>
+                    <p class="footer__description">
+                        <span>Hours:</span>09:00 - 20:00 , Mon -Sun.
+                    </p>
+
+                    <div class="footer__social">
+                        <h4 class="footer__subtitle">Follow Me</h4>
+
+                        <div class="footer__social-links flex">
+                            <a href="">
+                                <img src="assets/img/icon-facebook.svg" alt="" class="footer__social-icon">
+                            </a>
+
+                            <a href="">
+                                <img src="assets/img/icon-twitter.svg" alt="" class="footer__social-icon">
+                            </a>
+
+                            <a href="">
+                                <img src="assets/img/icon-instagram.svg" alt="" class="footer__social-icon">
+                            </a>
+
+                            <a href="">
+                                <img src="assets/img/icon-pinterest.svg" alt="" class="footer__social-icon">
+                            </a>
+
+                            <a href="">
+                                <img src="assets/img/icon-youtube.svg" alt="" class="footer__social-icon">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Address</h3>
+                    <ul class="footer links">
+                        <li><a href="" class="footer__link">About us</a></li>
+                        <li><a href="" class="footer__link">Delivery information</a></li>
+                        <li><a href="" class="footer__link">Privacy policy</a></li>
+                        <li><a href="" class="footer__link">Terms & conditions</a></li>
+                        <li><a href="" class="footer__link">Contact us</a></li>
+                        <li><a href="" class="footer__link">Support Center</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">My Account</h3>
+                    <ul class="footer links">
+                        <li><a href="" class="footer__link">Sign in</a></li>
+                        <li><a href="" class="footer__link">View cart</a></li>
+                        <li><a href="" class="footer__link">My Wishlist</a></li>
+                        <li><a href="" class="footer__link">Track my order</a></li>
+                        <li><a href="" class="footer__link">Help</a></li>
+                        <li><a href="" class="footer__link">Order</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Secured payment Gateway</h3>
+
+                    <img src="assets/img/payment-method.png" alt="" class="payment__img">
+
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p class="copyright">&copy; 2023 GaneshMobiles.All rights Reserved</p>
+                <span class="designer">Designed By NikhilKumar</span>
+            </div>
+        </footer>
+
+
+      <!-- swiper js -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+      <!-- main js -->
+      <script src="assets/js/main.js"></script>
+</body>
+</html>
